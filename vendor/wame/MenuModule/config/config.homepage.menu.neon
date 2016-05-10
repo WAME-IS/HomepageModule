@@ -1,0 +1,7 @@
+services:
+	MenuManager:
+		setup:
+			- addMenuItemType(Wame\HomepageModule\Vendor\Wame\MenuModule\Components\MenuManager\Forms\HomepageMenuItem(), 'homepage')
+
+	# Events
+	- {class: Wame\HomepageModule\Vendor\Wame\MenuModule\Components\MenuManager\Events\HomepageMenuItemListener, tags: [run]}
