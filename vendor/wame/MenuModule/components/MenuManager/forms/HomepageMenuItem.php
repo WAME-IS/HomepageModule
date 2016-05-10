@@ -83,7 +83,7 @@ class HomepageMenuItem implements IMenuItem
 	
 	public function getLink($menuEntity)
 	{
-		return $this->linkGenerator->link(':Homepage:Homepage:', ['lang' => $this->lang]);
+		return $this->linkGenerator->link('Homepage:Homepage:', ['lang' => $this->lang]);
 	}
 	
 }
