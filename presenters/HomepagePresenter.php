@@ -2,7 +2,8 @@
 
 namespace App\HomepageModule\Presenters;
 
-class HomepagePresenter extends \App\Core\Presenters\BasePresenter
-{	
+use App\Core\Presenters\BasePresenter;
 
+class HomepagePresenter extends BasePresenter {
+	
 }
