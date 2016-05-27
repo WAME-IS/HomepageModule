@@ -16,7 +16,7 @@ class HomepageRouterEntity {
 		$entity->presenter = "Homepage";
 		$entity->action = "default";
 		$entity->defaults = [];
-		$entity->sort = 999;
+		$entity->sort = 0;
 		$entity->sitemap = true;
 		$entity->status = 1;
 		return $entity;
