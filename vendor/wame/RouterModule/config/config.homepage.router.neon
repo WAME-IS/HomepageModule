@@ -1,5 +1,4 @@
 services:
-	- Wame\HomepageModule\Vendor\Wame\RouterRepository\Registers\HomepageRouterEntity
 	defaultRoutesRegister:
 		setup:
-		- register(@Wame\HomepageModule\Vendor\Wame\RouterRepository\Registers\HomepageRouterEntity::create())
+		- register(Wame\HomepageModule\Vendor\Wame\RouterRepository\Registers\HomepageRouterEntity::create())
