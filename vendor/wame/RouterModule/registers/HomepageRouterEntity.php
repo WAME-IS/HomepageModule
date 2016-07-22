@@ -11,7 +11,7 @@ class HomepageRouterEntity {
 
 	public static function create() {
 		$entity = new RouterEntity();
-		$entity->route = "/[<lang>/][<module>/][<presenter>/][<action>/][<id>]";
+		$entity->route = "/[<lang>/]<module>/<presenter>/<action>/[<id>]";
 		$entity->module = "Homepage";
 		$entity->presenter = "Homepage";
 		$entity->action = "default";
