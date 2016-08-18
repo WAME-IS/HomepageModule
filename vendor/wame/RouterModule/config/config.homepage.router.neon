@@ -1,4 +1,3 @@
-services:
-	defaultRoutesRegister:
-		setup:
-		- add(Wame\HomepageModule\Vendor\Wame\RouterRepository\Registers\HomepageRouterEntity::create(), 'homepage')
+router:
+    defaultRoutes:
+        '/[<lang>/]<module>/<presenter>/<action>/[<id>]': 'Homepage:Homepage:default'
