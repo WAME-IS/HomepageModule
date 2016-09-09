@@ -1,3 +1,7 @@
 router:
     defaultRoutes:
-        '/[<lang>/]<module>/<presenter>/<action>/[<id>]': 'Homepage:Homepage:default'
+        '/[<lang>/]<module>/<presenter>/<action>/[<id>]': 
+            module: Homepage
+            presenter: Homepage
+            action: default
+            sort: -1
