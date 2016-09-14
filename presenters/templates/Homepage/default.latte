@@ -1,3 +1,11 @@
 {block content}
-    HOMEPAGE
-    {position homepage}
+
+<div class="container">
+    <h1 n:block="title">{$siteTitle}</h1>
+    
+    {position homepageDefaultTop}
+    
+    {position homepageDefaultContent}
+    
+    {position homepageDefaultBottom}
+</div>
