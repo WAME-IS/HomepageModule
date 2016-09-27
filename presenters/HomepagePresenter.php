@@ -13,6 +13,8 @@ class HomepagePresenter extends BasePresenter
     
     public function renderDefault()
     {
+        $this->metaTypeRegister->getByName('title')->setContent("Title");
+        
         $this->template->siteTitle = _('Home');
     }
     
